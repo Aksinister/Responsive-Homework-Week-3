@@ -80,15 +80,29 @@ p {
   color: white;
 }
 
-.btn:hover {
-  background-color: var(--primary-color);
-  color: #0a58cc;
-}
-
-.any-element:hover {
-  color: #0a58cc;
-}
-
 .launching-button {
   text-align: left;
+}
+
+@media (max-width: 576px) {
+  body {
+    margin-bottom: 60px;
+  }
+  h1 {
+    font-size: 40px;
+    padding: 18px 0px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 200;
+  }
+  .launching-button {
+    text-align: center !important;
+  }
+  .card-title {
+    text-align: center !important;
+  }
+  .card-text {
+    text-align: center !important;
+  }
 }
